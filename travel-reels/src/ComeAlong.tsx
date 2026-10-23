@@ -6,7 +6,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { Video } from "@remotion/media";
-import { Frame, Copy } from "./Visuals";
+import { Frame, EndCredit } from "./Visuals";
 export const ComeAlong = () => {
   const { fps } = useVideoConfig();
   return (
@@ -68,38 +68,12 @@ export const ComeAlong = () => {
         </Series>
       </Frame>
       <Sequence
-        name="Opening hook"
-        durationInFrames={3.5 * fps}
+        name="Small end credit"
+        from={20 * fps}
+        durationInFrames={2 * fps}
         premountFor={fps}
       >
-        <Copy
-          eyebrow="SOUND ON · NO MUSIC"
-          title={"Take a moment.\nLook around."}
-        />
-      </Sequence>
-      <Sequence
-        name="Quiet middle"
-        from={7 * fps}
-        durationInFrames={3.5 * fps}
-        premountFor={fps}
-      >
-        <Copy
-          eyebrow="COME ALONG FOR THE RIDE"
-          title={"Just the view.\nJust being here."}
-          small
-        />
-      </Sequence>
-      <Sequence
-        name="Follow invitation"
-        from={19 * fps}
-        durationInFrames={3 * fps}
-        premountFor={fps}
-      >
-        <Copy
-          eyebrow="MORE JOURNEYS AHEAD"
-          title={"Follow\nThe Bus Nerd."}
-          small
-        />
+        <EndCredit />
       </Sequence>
     </AbsoluteFill>
   );

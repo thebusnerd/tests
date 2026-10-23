@@ -6,7 +6,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { Video } from "@remotion/media";
-import { Frame, Copy } from "./Visuals";
+import { Frame, EndCredit } from "./Visuals";
 // STRUCTURE DRAFT ONLY: vehicle / transfer footage and cleared music still needed.
 export const Adventure = () => {
   const { fps } = useVideoConfig();
@@ -85,32 +85,14 @@ export const Adventure = () => {
           </Series.Sequence>
         </Series>
       </Frame>
-      <Sequence name="Opening" durationInFrames={2.5 * fps} premountFor={fps}>
-        <Copy
-          eyebrow="THE ADVENTURE ALONG THE WAY"
-          title={"Follow\nthe road."}
-        />
-      </Sequence>
       <Sequence
-        name="Closing"
-        from={17 * fps}
-        durationInFrames={3 * fps}
+        name="Small end credit"
+        from={18 * fps}
+        durationInFrames={2 * fps}
         premountFor={fps}
       >
-        <Copy eyebrow="THE BUS NERD" title={"Where\nnext?"} small />
+        <EndCredit />
       </Sequence>
-      <div
-        style={{
-          position: "absolute",
-          top: 260,
-          left: 85,
-          fontSize: 25,
-          color: "#c4df00",
-          fontFamily: "sans-serif",
-        }}
-      >
-        DRAFT · FOOTAGE & MUSIC PENDING
-      </div>
     </AbsoluteFill>
   );
 };

@@ -6,7 +6,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import { Video } from "@remotion/media";
-import { Frame, Copy } from "./Visuals";
+import { Frame, EndCredit } from "./Visuals";
 // PICTURE DRAFT ONLY: awaiting cleared music and the four unavailable uploads.
 export const Experience = () => {
   const { fps } = useVideoConfig();
@@ -70,36 +70,14 @@ export const Experience = () => {
           </Series.Sequence>
         </Series>
       </Frame>
-      <Sequence name="Hook" durationInFrames={3.5 * fps} premountFor={fps}>
-        <Copy
-          eyebrow="EXPERIENCE THE JOURNEY"
-          title={"Some views\nstay with you."}
-        />
-      </Sequence>
       <Sequence
-        name="End invitation"
-        from={22 * fps}
-        durationInFrames={3 * fps}
+        name="Small end credit"
+        from={23 * fps}
+        durationInFrames={2 * fps}
         premountFor={fps}
       >
-        <Copy
-          eyebrow="THE BUS NERD"
-          title={"Follow for\nthe next view."}
-          small
-        />
+        <EndCredit />
       </Sequence>
-      <div
-        style={{
-          position: "absolute",
-          top: 260,
-          left: 85,
-          fontSize: 25,
-          color: "#c4df00",
-          fontFamily: "sans-serif",
-        }}
-      >
-        PICTURE DRAFT · MUSIC PENDING
-      </div>
     </AbsoluteFill>
   );
 };

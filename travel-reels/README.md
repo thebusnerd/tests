@@ -2,11 +2,13 @@
 
 ## Current delivery status
 
-- **ComeAlong**: completed 22-second vertical edit, original location audio only; no music and no voiceover.
+- **ComeAlong**: completed 22-second vertical edit, original location audio only; no music and no voiceover. The revised version has no opening captions, slogans, permanent watermark or colour overlays. A small “The Bus Nerd” credit appears only during the final two seconds.
 - **Experience-DRAFT**: 25-second picture draft. **Not ready to post**: cleared music and remaining footage review are outstanding.
 - **Adventure-DRAFT**: 20-second structure draft. **Not ready to post**: cleared music and vehicle/stop/transfer footage review are outstanding. Current accessible material contains landscapes and street details; no vehicle or transfer story is claimed.
 
 Four uploads were accessible: IMG_3062, IMG_3073, IMG_3075, IMG_3076. The download tool rejected IMG_3068, IMG_3071, IMG_3074 and IMG_3077 because they exceed its 32 MiB per-file limit. Smaller copies are needed to review them. No location names or route numbers have been added.
+
+The same minimal text treatment is applied to both picture drafts. Their pending status is shown by their Studio names and these notes, rather than over the footage.
 
 ## Editable source
 
