@@ -1,0 +1,11 @@
+{
+  "file": "exports/travel/03-come-along.mp4",
+  "sha256": "bf57990a6242f0c01c229f2fb9e199cd9dce9f12d4742b8f0b3e2d395dff25f8",
+  "duration_seconds": 22.016,
+  "size_bytes": 36418945,
+  "video": "H.264, 1080x1920, 30 fps, 660 frames",
+  "audio": "AAC, 48000 Hz, original location recordings only",
+  "decode_check": "Full FFmpeg decode passed with no errors",
+  "source_check": "TypeScript check passed",
+  "music_reels_status": "Not rendered as finals: cleared tracks and four smaller footage files required"
+}

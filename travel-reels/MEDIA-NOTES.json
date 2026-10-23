@@ -1,0 +1,32 @@
+{
+  "accessible_clips": {
+    "3062": {
+      "subject": "Street monument and surrounding town",
+      "duration_seconds": 6.538,
+      "audio_gain_db": 6
+    },
+    "3073": {
+      "subject": "Mountain town panorama",
+      "duration_seconds": 13.072381,
+      "audio_gain_db": 14
+    },
+    "3075": {
+      "subject": "Wide mountain valley",
+      "duration_seconds": 4.17,
+      "audio_gain_db": 0
+    },
+    "3076": {
+      "subject": "Winding mountain road and cliff",
+      "duration_seconds": 3.136,
+      "audio_gain_db": 14
+    }
+  },
+  "unavailable_over_32_MiB": [
+    "3068",
+    "3071",
+    "3074",
+    "3077"
+  ],
+  "music": "No music downloaded or used. Cleared tracks required for Reels 1 and 2.",
+  "location": "Not labelled; no unsupported route or location assertions."
+}
